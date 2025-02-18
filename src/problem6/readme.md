@@ -129,7 +129,7 @@ The module follows a layered architecture:
 
 ## Dependencies
 
-- Database: PostgreSQL for persistent storage
+- Database: MongoDB for persistent storage
 - Cache: Redis for leaderboard caching
 - Authentication: JWT library for token management
 - WebSockets: Socket.IO for real-time communication
@@ -138,7 +138,7 @@ The module follows a layered architecture:
 ## Getting Started
 
 1. Install dependencies: `npm install`
-2. Configure environment variables (see `.env.example`)
+2. Configure environment variables (see `.env`)
 3. Start development server: `npm run dev`
 4. Run tests: `npm test`
 
@@ -152,4 +152,3 @@ The module follows a layered architecture:
 - Implement multi-region support for global leaderboards
 - Add support for multiple leaderboards based on game modes or seasons
 - Enhance analytics to detect suspicious score patterns
-- Implement GraphQL API alongside REST endpoints
